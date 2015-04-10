@@ -17,7 +17,6 @@ $data = array(
         'pt'=>1,
         'srt'=>'prd'
     )
-
 );
 $data = http_build_query($data); // encode and & delineate
 $method = 'PUT';
